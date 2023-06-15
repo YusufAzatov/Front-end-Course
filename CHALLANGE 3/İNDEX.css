@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-bottom: 10px solid #232323;
+    overflow: hidden;
+  }
+  header .hero-image-filtre {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1;
+  }
+  header .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+  header .container .nav {
+    width: 100%;
+    margin-left: 60px;
+    margin-top: -280px;
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    border-radius: 25px;
+    overflow: hidden;
+    z-index: 2;
+  }
+  header .container .nav .logo {
+    max-width: 215px;
+  }
+  header .container .nav .logo img {
+    width: 100%;
+    margin-top:27px; 
+  }
+  .cart{
+    background-color: rgba(0, 0, 0, .7);
+    width: 450px;
+    height:600px ;
+    padding: 60px;
+    word-spacing: 5px;
+    z-index: 2;
+    position: relative;
+
+  }
+  .container .cart .start-now input{
+    background-color: darkgrey;
+    height: 45px;
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+
+  }
+  .cart .yazilar{
+    color: #fff;
+    padding-top: -15;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+
+  }
+  .cart .yazilar h2{
+    font-size: 30px;
+
+  }
+  .container .cart .yazilar a:first-child{
+    color: white ;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 65px;
+  }
+  .container .cart .yazilar p{
+    color: dimgray;
+    
+  }

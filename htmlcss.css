@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  border-bottom: 10px solid #232323;
+  overflow: hidden;
+}
+
+header .hero-image-filtre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 1;
+}
+
+header .hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+header .container .nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  text-decoration: none;
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+header .container .nav .logo {
+  max-width: 150px;
+}
+
+header .container .nav .logo img {
+  width: 100%;
+  margin-top:27px; 
+}
+
+header .container .nav .sign-in-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+header .container .nav .sign-in-btn select {
+  width: 250px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+header .container .nav .sign-in-btn {
+  width: 250px;
+  height: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin: 30px;
+  padding: 30px;
+}
+
+header .container .nav .sign-in-btn a {
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+header .container .start-content h1 {
+  color: #fff;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+header .container .start-content p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 25px;
+}
+
+header .container .start-now {
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+header .container .start-now a {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px;
+}
+
+header .container .start-now input {
+  width: 400px;
+  height: 50px;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+/*Feature box*/
+*{
+    margin:0;
+    padding:0;
+    
+}
+ 
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+main .feature_box {
+    width: 100%;
+    background-color: #000;
+    border-bottom: 10px solid #232323;
+}
+
+main .feature_box .container {
+    display: flex;
+}
+
+main .feature_box .container .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .feature_box .container .text h2 {
+    font-size: 48px;
+    color: #fff;
+    padding-right: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding-right: 20;
+}
+
+main .feature_box .container .text p {
+    font-size: 24px;
+    color: #fff;
+    padding-right: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 30px;
+}
+
+main .feature_box .container .photo {
+    width: 50%;
+    position: relative;
+}
+
+main .feature_box .container .photo img {
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+main .feature_box .container .photo video {
+    position: absolute;
+    top: 100px;
+    left: 80px;   
+}
+main .feature_box .container .resim {
+    width: 50%;
+    position: relative;
+}
+
+main .feature_box .container .resim img {
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+main .feature_box .container .resim video {
+    position: absolute;
+    top: 52px;
+    left: 110px;   
+    width:65%;
+
+}
+main .feature_box .container .fotoğraf {
+    width: 50%;
+    position: relative;
+}
+
+main .feature_box .container .fotoğraf img {
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+main .feature_box .container .fotoğraf video {
+    position: absolute;
+    top: 100px;
+    left: 80px;   
+}
+

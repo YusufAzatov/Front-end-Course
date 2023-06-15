@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: darkred;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.filmler{
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    position: relative;
+}
+.filmler h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif ;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+.filmler h2 span{
+    opacity: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: cyan;
+}
+.filmler h2 i{
+    opacity: 0;
+}
+.filmler .sliders{
+    width: 500px;
+    height: 500px;
+}
+.filmler .sliders .wrapper{
+    width: 100%;
+    padding-left: 150px;
+    overflow: hidden;
+}
+.filmler .sliders .wrapper .navigation .fa-angle-left{
+    position: absolute;
+    height: 80%;
+    width: 80px;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 50px;
+    color: #fff;
+    font-size: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.filmler .sliders .wrapper .navigation .fa-angle-left:hover,
+.filmler .sliders .wrapper .navigation .fa-angle-right:hover{
+    cursor: pointer;
+}
+.filmler .sliders .wrapper .navigation .fa-angle-right{
+    position: absolute;
+    height: 80%;
+    width: 80px;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 50px;
+    color: #fff;
+    font-size: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
